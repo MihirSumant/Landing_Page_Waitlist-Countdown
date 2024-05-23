@@ -48,6 +48,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .hero-container {
@@ -158,6 +159,65 @@ header{
 
 .book-billie-eilish{
     width: 14rem;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    padding: 4rem 1rem;
+}
+
+.about-text{
+    width: 60%;
+    padding: 1rem;
+}
+
+.space-box{
+    padding: 2rem;
+}
+
+.about-header h3{
+    padding: 1rem;
+}
+
+.about-title{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.about-title h2{
+    font-weight: normal;
+    font-style: normal;
+}
+
+.about-para{
+    padding: 1rem;
+    width: 77%;
+    line-height: 1.5;
+}
+
+.about-para p{
+    padding-bottom: 0.5rem;
+}
+
+.about-pic{
+    width: 40%;
+    padding: 4rem 0rem 0rem 8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-pic img{
+    padding: 1rem;
+    width: 20rem;
 }
 
 .footer-container{
