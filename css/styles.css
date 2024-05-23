@@ -5,6 +5,10 @@ body{
     max-width: 100vw;
 }
 
+div{
+    border: 1px black solid;
+}
+
 .font-lightbrown{
     color: rgba(169,129,104,1);
 }
@@ -17,19 +21,26 @@ body{
     font-family: "Libre Baskerville", sans-serif;
 }
 
+.font-franklin{
+    font-family: "Libre Franklin", sans-serif;
+}
+
 .font-slimmer{
     font-weight: 400;
 }
 
+header{
+    width: 100%;
+    max-width: 1140px;
+}
+
 .header-container{
     display: flex;
-    padding: 3rem;
-    padding-left: 16rem;    
+    padding: 3rem 2rem; 
 }
 
 .header-container img{
-    width: 12rem;
-    padding-left: 3rem;
+    width: 8rem;
 }
 
 .hero-section {
@@ -63,6 +74,7 @@ body{
 
 .center-banner{
     width: 50%;
+    padding: 0.5rem 1.5rem;
 }
 
 .center-banner-container{
@@ -80,7 +92,30 @@ body{
     font-size: 3.5rem;
     line-height: 1.125;
     text-align: center;
+    padding: 2% 2rem;
+}
+
+.clock{
+    height: 8rem;
+}
+
+.main-text{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5;
     padding: 1rem;
+}
+
+.main-text p{
+    padding: 0 1.5rem 1rem;
+}
+
+.smaller-text{
+    font-size: 1rem;
+}
+
+#second-para{
+    padding: 0 1rem;
 }
 
 .form{
@@ -88,6 +123,24 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+}
+
+.form input{
+    width: 80%;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.form button{
+    width: 80%;
+    height: 3rem;
+    background-color:  rgba(169,129,104,1);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Libre Baskerville", sans-serif;
 }
 
 .right-banner{
