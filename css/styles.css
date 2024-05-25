@@ -128,20 +128,26 @@ header{
 }
 
 .form input{
-    width: 80%;
+    width: 90%;
     height: 2rem;
     font-size: 1rem;
 }
 
 .form button{
-    width: 80%;
-    height: 3rem;
+    width: 90%;
+    height: 3.25rem;
     background-color:  rgba(169,129,104,1);
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.375;
     font-weight: bold;
     font-family: "Libre Baskerville", sans-serif;
+}
+
+.form button:hover{
+    background-color: rgba(135, 106, 87, 1);
+    transition-duration: 0.5s;
 }
 
 .right-banner{
@@ -166,6 +172,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(246,241,234,1);
 }
 
 .about-container{
@@ -213,20 +220,50 @@ header{
     padding: 4rem 0rem 0rem 8rem;
     display: flex;
     justify-content: flex-end;
+    background-image: url(../assets/porfilepic-background.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .about-pic img{
-    padding: 1rem;
     width: 20rem;
+}
+
+footer{
+    background-color: rgba(246,241,234,1);
 }
 
 .footer-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.socialmedia-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.socialmedia-row a{
+    color: rgba(169,129,104,1);
+    padding: 0.8rem;
+}
+
+.socialmedia-row a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.socialmedia-row i{
+    font-size: 1.5rem;
 }
 
 .footer-text{
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    font-size: 0.875rem;
 }
