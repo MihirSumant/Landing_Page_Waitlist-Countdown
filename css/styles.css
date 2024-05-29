@@ -5,10 +5,6 @@ body{
     max-width: 100vw;
 }
 
-div{
-    border: 1px black solid;
-}
-
 .font-lightbrown{
     color: rgba(169,129,104,1);
 }
@@ -114,7 +110,7 @@ header{
 
 .clock{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     text-align: center;
     padding: 0.8rem;
@@ -336,4 +332,62 @@ footer{
     .clock{
         padding: 0rem;
     }
+}
+
+@media (max-width: 768px){
+    .hero-container{
+        flex-direction: column;
+    }
+
+    .left-banner{
+        display: none;
+    }
+
+    .center-banner{
+        width: 100%;
+    }
+
+    .right-banner{
+        width: 100%;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-text{
+        width: 100%;
+    }
+
+    .about-para{
+        width: 100%;
+    }
+
+    .about-pic{
+        width: 100%;
+        height: 100%;
+        background-position: top;
+    }
+}
+
+@media (max-width: 425px){
+    .form button{
+        height: 3rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px){
+    .clock-container{
+        padding: 0rem;
+    }
+
+    .time-number{
+        font-size: 1.6rem;
+    }
+
+    .time-text{
+        font-size: 0.45rem;
+    }
+
 }
