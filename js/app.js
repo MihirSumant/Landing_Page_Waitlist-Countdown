@@ -54,7 +54,7 @@ joinButton.addEventListener("click", () => {
     if (nameInput.value !== "") {
       removeErrors();
       console.log(nameInput.value);
-      joinButton.innerHTML = "Done! See you at the workshop!";
+      joinButton.innerHTML = "Done! You are on the waitlist!";
       joinButton.classList.add("button-disabled");
       joinButton.classList.remove("hover-effect");
       joinButton.setAttribute("disabled", false);
