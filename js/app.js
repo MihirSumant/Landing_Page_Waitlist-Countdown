@@ -43,10 +43,12 @@ let removeErrors = () => {
 
 nameInput.addEventListener("click", () => {
   nameInput.classList.remove("error-highlight");
+  nameInput.value = null;
 });
 
 emailInput.addEventListener("click", () => {
   removeErrors();
+  emailInput.value = null;
 });
 
 joinButton.addEventListener("click", () => {
